@@ -54,5 +54,4 @@ public class Application {
         objectMapper.registerModule(new JavaTimeModule());
         return objectMapper;
     }
-
 }

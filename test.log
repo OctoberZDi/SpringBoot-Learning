@@ -1,0 +1,56 @@
+2019-12-25 09:50:45.682  INFO 19944 --- [main] com.didispace.Application                : Starting Application on zhangdi0300 with PID 19944 (E:\MyGitHub-OctoberZDi\Chapter3-1-8\target\classes started by zhangdi03 in E:\MyGitHub-OctoberZDi)
+2019-12-25 09:50:45.691  INFO 19944 --- [main] com.didispace.Application                : No active profile set, falling back to default profiles: default
+2019-12-25 09:50:45.876  INFO 19944 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@10289886: startup date [Wed Dec 25 09:50:45 CST 2019]; root of context hierarchy
+2019-12-25 09:50:49.995  INFO 19944 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2019-12-25 09:50:50.012  INFO 19944 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-25 09:50:50.014  INFO 19944 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2019-12-25 09:50:50.187  INFO 19944 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-25 09:50:50.187  INFO 19944 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4312 ms
+2019-12-25 09:50:50.443  INFO 19944 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2019-12-25 09:50:50.451  INFO 19944 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-12-25 09:50:50.452  INFO 19944 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-12-25 09:50:50.452  INFO 19944 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-12-25 09:50:50.453  INFO 19944 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-12-25 09:50:50.512  INFO 19944 --- [main] com.didispace.log.LogConfig              : ********log
+2019-12-25 09:50:50.914  INFO 19944 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@10289886: startup date [Wed Dec 25 09:50:45 CST 2019]; root of context hierarchy
+2019-12-25 09:50:51.027  INFO 19944 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user],methods=[POST],consumes=[application/xml],produces=[application/xml]}" onto public com.didispace.web.User com.didispace.web.UserController.create(com.didispace.web.User)
+2019-12-25 09:50:51.032  INFO 19944 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-12-25 09:50:51.032  INFO 19944 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-12-25 09:50:51.093  INFO 19944 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-25 09:50:51.093  INFO 19944 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-25 09:50:51.147  INFO 19944 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-25 09:50:51.442  INFO 19944 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2019-12-25 09:50:51.543  INFO 19944 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2019-12-25 09:50:51.551  INFO 19944 --- [main] com.didispace.Application                : Started Application in 7.122 seconds (JVM running for 9.69)
+2019-12-25 09:56:36.963  INFO 19944 --- [Thread-11] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@10289886: startup date [Wed Dec 25 09:50:45 CST 2019]; root of context hierarchy
+2019-12-25 09:56:36.968  INFO 19944 --- [Thread-11] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2019-12-25 09:56:51.987  INFO 8392 --- [main] com.didispace.Application                : Starting Application on zhangdi0300 with PID 8392 (E:\MyGitHub-OctoberZDi\Chapter3-1-8\target\classes started by zhangdi03 in E:\MyGitHub-OctoberZDi)
+2019-12-25 09:56:52.022  INFO 8392 --- [main] com.didispace.Application                : No active profile set, falling back to default profiles: default
+2019-12-25 09:56:52.272  INFO 8392 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@303cf2ba: startup date [Wed Dec 25 09:56:52 CST 2019]; root of context hierarchy
+2019-12-25 09:56:55.125  INFO 8392 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2019-12-25 09:56:55.138  INFO 8392 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-25 09:56:55.140  INFO 8392 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2019-12-25 09:56:55.287  INFO 8392 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-25 09:56:55.287  INFO 8392 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3015 ms
+2019-12-25 09:56:55.560  INFO 8392 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2019-12-25 09:56:55.569  INFO 8392 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-12-25 09:56:55.570  INFO 8392 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-12-25 09:56:55.570  INFO 8392 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-12-25 09:56:55.571  INFO 8392 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-12-25 09:56:55.662  INFO 8392 --- [main] com.didispace.log.LogConfig              : ********log
+2019-12-25 09:56:56.196  INFO 8392 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@303cf2ba: startup date [Wed Dec 25 09:56:52 CST 2019]; root of context hierarchy
+2019-12-25 09:56:56.334  INFO 8392 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user],methods=[POST],consumes=[application/xml],produces=[application/xml]}" onto public com.didispace.web.User com.didispace.web.UserController.create(com.didispace.web.User)
+2019-12-25 09:56:56.340  INFO 8392 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-12-25 09:56:56.341  INFO 8392 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-12-25 09:56:56.411  INFO 8392 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-25 09:56:56.412  INFO 8392 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-25 09:56:56.497  INFO 8392 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-25 09:56:56.785  INFO 8392 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2019-12-25 09:56:56.872  INFO 8392 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2019-12-25 09:56:56.880  INFO 8392 --- [main] com.didispace.Application                : Started Application in 5.615 seconds (JVM running for 7.601)
+2019-12-25 09:57:03.431  INFO 8392 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-12-25 09:57:03.432  INFO 8392 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2019-12-25 09:57:03.463  INFO 8392 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 30 ms
+2019-12-25 09:57:06.194  INFO 8392 --- [http-nio-8080-exec-1] com.didispace.web.UserController         : usercontroller.....
+2019-12-25 09:58:02.244  INFO 8392 --- [Thread-9] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@303cf2ba: startup date [Wed Dec 25 09:56:52 CST 2019]; root of context hierarchy
+2019-12-25 09:58:02.248  INFO 8392 --- [Thread-9] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
