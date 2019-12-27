@@ -1,0 +1,13 @@
+###
+POST  http://localhost:8080/user/test
+
+###
+POST  http://localhost:8080/user/add
+
+###
+POST  http://localhost:8080/user/getAllUsers
+
+###
+POST  http://localhost:8080/user/deleteById/11111
+
+###

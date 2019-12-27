@@ -1,0 +1,9 @@
+POST  http://localhost:8080/add/zd222/23
+
+###
+POST  http://localhost:8080/getAllUsers
+
+###
+POST  http://localhost:8080/deleteAllUsers
+
+###

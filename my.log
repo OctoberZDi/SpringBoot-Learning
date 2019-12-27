@@ -1,0 +1,40 @@
+2019-12-26 17:38:03.731  INFO 25856 --- [main] com.didispace.Application                : Starting Application on zhangdi0300 with PID 25856 (E:\MyGitHub-OctoberZDi\Chapter3-3-1\target\classes started by zhangdi03 in E:\MyGitHub-OctoberZDi)
+2019-12-26 17:38:03.734  INFO 25856 --- [main] com.didispace.Application                : No active profile set, falling back to default profiles: default
+2019-12-26 17:38:03.803  INFO 25856 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@70beb599: startup date [Thu Dec 26 17:38:03 CST 2019]; root of context hierarchy
+2019-12-26 17:38:06.272  INFO 25856 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-12-26 17:38:06.294  INFO 25856 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-12-26 17:38:06.385  INFO 25856 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {4.3.11.Final}
+2019-12-26 17:38:06.387  INFO 25856 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-12-26 17:38:06.388  INFO 25856 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2019-12-26 17:38:06.665  INFO 25856 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2019-12-26 17:38:06.751  INFO 25856 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-12-26 17:38:06.908  INFO 25856 --- [main] o.h.h.i.ast.ASTQueryTranslatorFactory    : HHH000397: Using ASTQueryTranslatorFactory
+2019-12-26 17:38:07.215  INFO 25856 --- [main] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000227: Running hbm2ddl schema export
+2019-12-26 17:38:07.291  INFO 25856 --- [main] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000230: Schema export complete
+2019-12-26 17:38:07.969  INFO 25856 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2019-12-26 17:38:07.995  INFO 25856 --- [main] com.didispace.Application                : Started Application in 4.685 seconds (JVM running for 6.241)
+2019-12-26 17:38:08.006  INFO 25856 --- [Thread-11] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@70beb599: startup date [Thu Dec 26 17:38:03 CST 2019]; root of context hierarchy
+2019-12-26 17:38:08.013  INFO 25856 --- [Thread-11] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2019-12-26 17:38:08.013  INFO 25856 --- [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-12-26 17:38:35.599  INFO 26228 --- [main] com.didispace.Application                : Starting Application on zhangdi0300 with PID 26228 (E:\MyGitHub-OctoberZDi\Chapter3-3-1\target\classes started by zhangdi03 in E:\MyGitHub-OctoberZDi)
+2019-12-26 17:38:35.605  INFO 26228 --- [main] com.didispace.Application                : No active profile set, falling back to default profiles: default
+2019-12-26 17:38:35.658  INFO 26228 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@70beb599: startup date [Thu Dec 26 17:38:35 CST 2019]; root of context hierarchy
+2019-12-26 17:38:38.022  INFO 26228 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-12-26 17:38:38.039  INFO 26228 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-12-26 17:38:38.127  INFO 26228 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {4.3.11.Final}
+2019-12-26 17:38:38.128  INFO 26228 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-12-26 17:38:38.130  INFO 26228 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2019-12-26 17:38:38.415  INFO 26228 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2019-12-26 17:38:38.519  INFO 26228 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-12-26 17:38:38.660  INFO 26228 --- [main] o.h.h.i.ast.ASTQueryTranslatorFactory    : HHH000397: Using ASTQueryTranslatorFactory
+2019-12-26 17:38:38.957  INFO 26228 --- [main] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000227: Running hbm2ddl schema export
+2019-12-26 17:38:39.032  INFO 26228 --- [main] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000230: Schema export complete
+2019-12-26 17:38:39.694  INFO 26228 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2019-12-26 17:38:39.709  INFO 26228 --- [main] com.didispace.Application                : Started Application in 4.576 seconds (JVM running for 7.457)
+2019-12-26 17:38:39.711  INFO 26228 --- [Thread-11] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@70beb599: startup date [Thu Dec 26 17:38:35 CST 2019]; root of context hierarchy
+2019-12-26 17:38:39.717  INFO 26228 --- [Thread-11] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2019-12-26 17:38:39.717  INFO 26228 --- [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'

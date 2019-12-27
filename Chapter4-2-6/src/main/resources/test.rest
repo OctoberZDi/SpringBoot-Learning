@@ -1,0 +1,57 @@
+### 测试actuator断点
+http://localhost:8080/autoconfig
+
+#该端点用来获取应用中配置的属性信息报告。从下面该端点返回示例的片段中，
+#我们看到返回了关于该短信的配置信息，prefix属性代表了属性的配置前缀，
+#properties代表了各个属性的名称和值。所以，我们可以通过该报告来看到各个属性的配置路径，
+#比如我们要关闭该端点，就可以通过使用endpoints.configprops.enabled=false来完成设置。
+###
+http://localhost:8080/configprops
+
+
+### 该端点用来获取应用上下文中创建的所有Bean。
+http://localhost:8080/beans
+
+###
+http://localhost:8080/heapdump
+
+###
+# /env：该端点与/configprops不同，它用来获取应用所有可用的环境属性报告。
+http://localhost:8080/env
+
+###
+GET http://localhost:8080/test
+Content-Type:  application/xml
+
+### 该端点用来返回所有Spring MVC的控制器映射关系报告。
+http://localhost:8080/mappings
+
+
+### 该端点用来返回一些应用自定义的信息。
+http://localhost:8080/info
+
+###该端点用来返回当前应用的各类重要度量指标，比如：内存信息、线程信息、垃圾回收信息等。
+http://localhost:8080/metrics
+
+### test metrics 获取访问hello接口的次数
+http://localhost:8080/hello
+
+### 细粒度获取 /metrics/{name}
+http://localhost:8080/metrics/counter.com.didispace.hello.count
+
+### 它用来获取应用的各类健康指标信息。
+http://localhost:8080/health
+
+### 该端点用来暴露程序运行中的线程信息。
+http://localhost:8080/dump
+
+###该端点用来返回基本的HTTP跟踪信息。默认情况下，跟踪信息的存储采用
+http://localhost:8080/dump
+
+###
+http://localhost:8080/loggers
+
+###
+http://localhost:8080/test
+
+###
