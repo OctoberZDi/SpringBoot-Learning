@@ -21,7 +21,6 @@ public class ApplicationTests {
 	@Test
 	@Transactional
 	public void test() throws Exception {
-
 		// 创建10条记录
 		userRepository.save(new User("AAA", 10));
 		userRepository.save(new User("BBB", 20));
@@ -30,7 +29,7 @@ public class ApplicationTests {
 		userRepository.save(new User("EEE", 50));
 		userRepository.save(new User("FFF", 60));
 		userRepository.save(new User("GGG", 70));
-		userRepository.save(new User("HHHHHHHHH", 80));
+		userRepository.save(new User("444", 80));
 		userRepository.save(new User("III", 90));
 		userRepository.save(new User("JJJ", 100));
 

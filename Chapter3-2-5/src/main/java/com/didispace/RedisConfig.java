@@ -1,6 +1,7 @@
 package com.didispace;
 
 import com.didispace.domain.User;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.redis.connection.RedisConnectionFactory;
@@ -22,14 +23,14 @@ public class RedisConfig {
         return new JedisConnectionFactory();
     }
 
-    @Bean
-    public RedisTemplate<String, User> redisTemplate(RedisConnectionFactory factory) {
+    /*@Bean
+    public RedisTemplate<String, User> redisTemplate(@Qualifier("factory") RedisConnectionFactory factory) {
         RedisTemplate<String, User> template = new RedisTemplate<String, User>();
         template.setConnectionFactory(jedisConnectionFactory());
         template.setKeySerializer(new StringRedisSerializer());
         template.setValueSerializer(new RedisObjectSerializer());
         return template;
     }
-
+*/
 
 }

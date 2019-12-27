@@ -26,6 +26,7 @@
 
 	<dependencies>
 		<dependency>
+			<!--监控管理模块-->
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
