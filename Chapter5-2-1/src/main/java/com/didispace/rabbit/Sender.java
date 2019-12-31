@@ -10,13 +10,21 @@ import java.util.Date;
 @Component
 public class Sender {
 
-	@Autowired
-	private AmqpTemplate rabbitTemplate;
+    @Autowired
+    private AmqpTemplate rabbitTemplate;
 
-	public void send() {
-		String context = "hello " + new Date();
-		System.out.println("Sender : " + context);
-		this.rabbitTemplate.convertAndSend("hello", context);
-	}
+    @Autowired
+    RabbitTemplate rabbitTemp;
 
+    public void send() {
+        String context = "hello " + new Date();
+        System.err.println("Sender : " + context);
+        this.rabbitTemplate.convertAndSend("hello", context);
+    }
+
+    public void send2() {
+        String context = "hello222 " + new Date();
+        System.err.println("Sender22 : " + context);
+        this.rabbitTemp.convertAndSend("hello2", context);
+    }
 }

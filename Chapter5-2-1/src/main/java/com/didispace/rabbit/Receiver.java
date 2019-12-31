@@ -18,7 +18,14 @@ public class Receiver {
 
     @RabbitHandler
     public void process(String hello) {
-        System.out.println("Receiver : " + hello);
+        System.out.println("Receiver******* : " + hello);
     }
 
+    /**
+     * @param hello2
+     */
+    @RabbitListener(queues = "hello2") // 监听指定队列
+    public void process2(String hello2) {
+        System.err.println("Receiver2*******:" + hello2);
+    }
 }
