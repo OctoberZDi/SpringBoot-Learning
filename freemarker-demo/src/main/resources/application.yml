@@ -1,0 +1,8 @@
+server:
+  port: 1001
+spring:
+  freemarker:
+    # 后缀
+    suffix: .ftl
+    # 默认路径
+    template-loader-path: classpath:/templates/
