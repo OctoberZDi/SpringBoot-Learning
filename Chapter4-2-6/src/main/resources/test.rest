@@ -1,12 +1,12 @@
 ### 测试actuator断点
-http://localhost:8080/autoconfig
+http://localhost:9999/autoconfig
 
 #该端点用来获取应用中配置的属性信息报告。从下面该端点返回示例的片段中，
 #我们看到返回了关于该短信的配置信息，prefix属性代表了属性的配置前缀，
 #properties代表了各个属性的名称和值。所以，我们可以通过该报告来看到各个属性的配置路径，
 #比如我们要关闭该端点，就可以通过使用endpoints.configprops.enabled=false来完成设置。
 ###
-http://localhost:8080/configprops
+http://localhost:9999/configprops
 
 
 ### 该端点用来获取应用上下文中创建的所有Bean。
